@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hainesblog.netlify.com/post/r-basics-combine/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hainesblog.netlify.com/post/test-post/</loc>
     <lastmod>2017-09-13T00:00:00+00:00</lastmod>
   </url>
@@ -20,6 +25,12 @@
   
   <url>
     <loc>https://hainesblog.netlify.com/tags/dplyr/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hainesblog.netlify.com/tags/functions/</loc>
     <lastmod>2017-09-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

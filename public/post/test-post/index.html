@@ -127,10 +127,8 @@
 
 
     <br> <div class="text-justify"><p>This is just a test post let’s add some libraries:</p>
-<pre class="r"><code>library(Lahman)</code></pre>
-<pre><code>## Warning: package &#39;Lahman&#39; was built under R version 3.4.1</code></pre>
-<pre class="r"><code>library(dplyr)</code></pre>
-<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.4.1</code></pre>
+<pre class="r"><code>library(Lahman)
+library(dplyr)</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;dplyr&#39;</code></pre>
 <pre><code>## The following objects are masked from &#39;package:stats&#39;:
@@ -143,7 +141,6 @@
 <pre class="r"><code>Batting%&gt;%
   select(playerID,HR)%&gt;%
   filter(HR&gt;50)</code></pre>
-<pre><code>## Warning: package &#39;bindrcpp&#39; was built under R version 3.4.1</code></pre>
 <pre><code>##     playerID HR
 ## 1   ruthba01 54
 ## 2   ruthba01 59
