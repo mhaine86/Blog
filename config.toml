@@ -1,6 +1,6 @@
 baseURL = "https://hainesblog.netlify.com/"
 languageCode = "en-us"
-title = "HDB"
+title = "HDB: Haines Data Blog"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 

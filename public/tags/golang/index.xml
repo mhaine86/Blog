@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on HDB</title>
+    <title>Golang on HDB: Haines Data Blog</title>
     <link>https://hainesblog.netlify.com/tags/golang/</link>
-    <description>Recent content in Golang on HDB</description>
+    <description>Recent content in Golang on HDB: Haines Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
