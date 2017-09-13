@@ -1,6 +1,6 @@
-baseURL = "http://example.com/"
+baseURL = "https://hainesblog.netlify.com/"
 languageCode = "en-us"
-title = "Minimal"
+title = "HDB"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 
