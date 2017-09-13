@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Categories</title>
+        <title>Test Post</title>
         <style>
 
     html body {
@@ -59,9 +59,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.27.1" />
         
-        <link href="https://hainesblog.netlify.com/categories/index.xml" rel="alternate" type="application/rss+xml" title="HDB" />
-        <link href="https://hainesblog.netlify.com/categories/index.xml" rel="feed" type="application/rss+xml" title="HDB" />
-        
     </head>
 
     <body>
@@ -72,7 +69,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Categories</a>
+                    <a class="navbar-brand visible-xs" href="#">Test Post</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -113,9 +110,7 @@
 
 <main>
 
-    <h2>Categories</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -124,16 +119,78 @@
     
     
 
-    <h4><a href="/categories/r/">R</a></h4>
+    <h4><a href="/post/test-post/">Test Post</a></h4>
     <h5>September 13, 2017</h5>
-    
+     <kbd class="item-tag">Lahman</kbd>  <kbd class="item-tag">baseball</kbd>  <kbd class="item-tag">dplyr</kbd> 
 
 </div>
- 
+
+
+    <br> <div class="text-justify"><p>This is just a test post let’s add some libraries:</p>
+<pre class="r"><code>library(Lahman)</code></pre>
+<pre><code>## Warning: package &#39;Lahman&#39; was built under R version 3.4.1</code></pre>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## Warning: package &#39;dplyr&#39; was built under R version 3.4.1</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<p>Now how about a query:</p>
+<pre class="r"><code>Batting%&gt;%
+  select(playerID,HR)%&gt;%
+  filter(HR&gt;50)</code></pre>
+<pre><code>## Warning: package &#39;bindrcpp&#39; was built under R version 3.4.1</code></pre>
+<pre><code>##     playerID HR
+## 1   ruthba01 54
+## 2   ruthba01 59
+## 3   ruthba01 60
+## 4   ruthba01 54
+## 5  wilsoha01 56
+## 6   foxxji01 58
+## 7  greenha01 58
+## 8  kinerra01 51
+## 9   mizejo01 51
+## 10 kinerra01 54
+## 11  mayswi01 51
+## 12 mantlmi01 52
+## 13 mantlmi01 54
+## 14 marisro01 61
+## 15  mayswi01 52
+## 16 fostege01 52
+## 17 fieldce01 51
+## 18 mcgwima01 52
+## 19 griffke02 56
+## 20 griffke02 56
+## 21 mcgwima01 70
+## 22  sosasa01 66
+## 23 mcgwima01 65
+## 24  sosasa01 63
+## 25 bondsba01 73
+## 26 gonzalu01 57
+## 27 rodrial01 52
+## 28  sosasa01 64
+## 29 rodrial01 57
+## 30 thomeji01 52
+## 31 jonesan01 51
+## 32 howarry01 58
+## 33 ortizda01 54
+## 34 rodrial01 54
+## 35 bautijo02 54
+## 36 davisch02 53</code></pre>
+</div>
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

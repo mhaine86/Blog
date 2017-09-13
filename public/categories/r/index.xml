@@ -6,20 +6,20 @@
     <description>Recent content in R on HDB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hainesblog.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://hainesblog.netlify.com/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Test Post</title>
+      <link>https://hainesblog.netlify.com/post/test-post/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hainesblog.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>https://hainesblog.netlify.com/post/test-post/</guid>
+      <description>This is just a test post let’s add some libraries:
+library(Lahman)## Warning: package &amp;#39;Lahman&amp;#39; was built under R version 3.4.1library(dplyr)## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 3.4.1## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionNow how about a query:
+Batting%&amp;gt;%select(playerID,HR)%&amp;gt;%filter(HR&amp;gt;50)## Warning: package &amp;#39;bindrcpp&amp;#39; was built under R version 3.</description>
     </item>
     
   </channel>
