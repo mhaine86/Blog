@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hainesblog.netlify.com/post/r-basics-seq-rep-and-standard-deviation-with-basic-functions/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hainesblog.netlify.com/post/r-basics-combine/</loc>
     <lastmod>2017-09-13T00:00:00+00:00</lastmod>
   </url>
@@ -36,13 +41,13 @@
   
   <url>
     <loc>https://hainesblog.netlify.com/tags/functions/</loc>
-    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hainesblog.netlify.com/</loc>
-    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,13 +59,19 @@
   
   <url>
     <loc>https://hainesblog.netlify.com/post/</loc>
-    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hainesblog.netlify.com/categories/r/</loc>
-    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hainesblog.netlify.com/tags/statistics/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

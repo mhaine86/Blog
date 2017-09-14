@@ -6,10 +6,20 @@
     <description>Recent content on HDB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hainesblog.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R Basics seq(), rep(), and standard deviation with basic functions</title>
+      <link>https://hainesblog.netlify.com/post/r-basics-seq-rep-and-standard-deviation-with-basic-functions/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hainesblog.netlify.com/post/r-basics-seq-rep-and-standard-deviation-with-basic-functions/</guid>
+      <description>R Series 3Functions seq(),rep(), and standard deviationIn the last post we went over significant functions like mean() and diff() this post will examine the seq() or sequence function, the rep() or repeat function, and a way to calculate standard deviation with basic functions.
+First we will examine the sequence function. The sequence function runs by inputing two numbers seperated by a comma in the parenthesis. You then have the option of inputing parameters.</description>
+    </item>
     
     <item>
       <title>R Basics combine</title>
