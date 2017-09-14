@@ -22,6 +22,15 @@ x&amp;lt;- c(1,5,7,15)x## [1] 1 5 7 15</description>
     </item>
     
     <item>
+      <title>R basics length(), diff(), mean()</title>
+      <link>https://hainesblog.netlify.com/post/r-basics-length-diff-mean/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hainesblog.netlify.com/post/r-basics-length-diff-mean/</guid>
+      <description>R Series 2Functions length(), diff(), and mean()Last post we examined the use of the combine funtion to throw an array of numbers into a variable. Now we will examine some functions that actually affect the array. First we will look at the function length(). To do so we will need a list of numbers. Since I am a big baseball guy, I used Chicago Cub’s first basemen, Anthony Rizzo’s, home runs over his last five seasons.</description>
+    </item>
+    
+    <item>
       <title>Test Post</title>
       <link>https://hainesblog.netlify.com/post/test-post/</link>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
