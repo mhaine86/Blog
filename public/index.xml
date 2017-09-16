@@ -17,7 +17,7 @@
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hainesblog.netlify.com/post/r-series-proabailities-with-normal-data/</guid>
-      <description>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, it’s like Kristaps Porzingas, you do everything that you can to get it, but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.</description>
+      <description>R Series 3Function pnorm()Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, it’s like Kristaps Porzingas, you do everything that you can to get it, but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.</description>
     </item>
     
     <item>

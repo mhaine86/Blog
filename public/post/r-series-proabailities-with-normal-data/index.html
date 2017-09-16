@@ -126,13 +126,13 @@
 </div>
 
 
-    <br> <div class="text-justify"><p>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, it’s like Kristaps Porzingas, you do everything that you can to get it, but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.9 centimeters and standard deviation 1.05 centimeters. For this population, find the probability that a randomly chosen foot is less than 26 centimeters long. The R code to find this probability value is shown below:</p>
-<pre class="r"><code>pnorm(26, 24.9, 1.05)</code></pre>
-<pre><code>## [1] 0.8525929</code></pre>
-<div id="r-series-3" class="section level1">
+    <br> <div class="text-justify"><div id="r-series-3" class="section level1">
 <h1>R Series 3</h1>
 <div id="function-pnorm" class="section level2">
 <h2>Function pnorm()</h2>
+<p>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, it’s like Kristaps Porzingas, you do everything that you can to get it, but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.9 centimeters and standard deviation 1.05 centimeters. For this population, find the probability that a randomly chosen foot is less than 26 centimeters long. The R code to find this probability value is shown below:</p>
+<pre class="r"><code>pnorm(26, 24.9, 1.05)</code></pre>
+<pre><code>## [1] 0.8525929</code></pre>
 <p>This code spits out [1] 0.8525929 which can be read as a percentage for probability. So the answer to that problem is that a randomly chosen foot is has an 85% probability of being less than 26 centimeters. The regular pnorm equation calculates this probability from the area under the bell curve based on the value we gave, the data set’s mean, and the data set’s standard deviation. To get the probabaility of a foot that is bigger than 26 centimeters long you would use this code.</p>
 <pre class="r"><code>1-pnorm(26, 24.9, 1.05)</code></pre>
 <pre><code>## [1] 0.1474071</code></pre>
