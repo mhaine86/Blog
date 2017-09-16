@@ -12,7 +12,7 @@ tags:
 # R Series 2
 ### Functions length(), diff(), and mean()
 
-Last post we examined the use of the combine funtion to throw an array of numbers into a variable. Now we will examine some functions that actually affect the array. First we will look at the function length(). To do so we will need a list of numbers. Since I am a big baseball guy, I used Chicago Cub's first basemen, Anthony Rizzo's, home runs over his last five seasons.
+Last post we examined the use of the combine funtion to throw an array of numbers into a variable. Now we will examine some functions that actually affect the array. First, we will look at the function length(). To do so we will need a list of numbers. Since I am a big baseball guy, I used Chicago Cub's first basemen, Anthony Rizzo's, home runs over his last five seasons.
 
 ```{r}
 RizzoHR<-c(32,31,32,23,15)
@@ -37,7 +37,7 @@ Let's look at the mean function. The mean function takes the sum of all the entr
 mean(RizzoHR)
 ```
 
-And finally the last thing we can do to ramp up the complexity a bit is nest the functions. We know how to find the difference between Rizzo's individual season home runs with the difference function. We can find the average difference between seasons by nesting the mean function with the difference function. see below:
+And finally the last thing we can do to ramp up the complexity a bit is nest the functions. We know how to find the difference between Rizzo's individual season home runs with the difference function. We can find the average difference between seasons by nesting the mean function with the difference function. See below:
 
 ```{r}
 mean(diff(RizzoHR))

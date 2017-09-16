@@ -17,7 +17,7 @@
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hainesblog.netlify.com/post/r-series-proabailities-with-normal-data/</guid>
-      <description>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, its like Kristaps Porzingas, you do everything that you can to get it but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.</description>
+      <description>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, it’s like Kristaps Porzingas, you do everything that you can to get it, but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       
       <guid>https://hainesblog.netlify.com/post/r-basics-seq-rep-and-standard-deviation-with-basic-functions/</guid>
       <description>R Series 3Functions seq(),rep(), and standard deviationIn the last post we went over significant functions like mean() and diff() this post will examine the seq() or sequence function, the rep() or repeat function, and a way to calculate standard deviation with basic functions.
-First we will examine the sequence function. The sequence function runs by inputing two numbers seperated by a comma in the parenthesis. You then have the option of inputing parameters.</description>
+First, we will examine the sequence function. The sequence function runs by inputing two numbers seperated by a comma in the parenthesis. You then have the option of inputing parameters.</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ First we will examine the sequence function. The sequence function runs by input
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hainesblog.netlify.com/post/r-basics-combine/</guid>
-      <description>R SeriesThese posts will follow everything I have learned or stumbled upon during my time in Mercyhurst’s Data Science program. This first function is called combine and it is launched by using this line of code c(). As demonstrated below the combine function combines all the data within the parenthesis into a list and that list is stored within the designated variable.
+      <description>R SeriesThese posts will follow everything I have learned or stumbled upon during my time in Mercyhurst’s Data Science program. This first function is called combine and it is launched by using this line of code c(). As demonstrated below, the combine function combines all the data within the parenthesis into a list and that list is stored within the designated variable.
 x&amp;lt;- c(1,5,7,15)x## [1] 1 5 7 15</description>
     </item>
     
@@ -46,7 +46,7 @@ x&amp;lt;- c(1,5,7,15)x## [1] 1 5 7 15</description>
       <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hainesblog.netlify.com/post/r-basics-length-diff-mean/</guid>
-      <description>R Series 2Functions length(), diff(), and mean()Last post we examined the use of the combine funtion to throw an array of numbers into a variable. Now we will examine some functions that actually affect the array. First we will look at the function length(). To do so we will need a list of numbers. Since I am a big baseball guy, I used Chicago Cub’s first basemen, Anthony Rizzo’s, home runs over his last five seasons.</description>
+      <description>R Series 2Functions length(), diff(), and mean()Last post we examined the use of the combine funtion to throw an array of numbers into a variable. Now we will examine some functions that actually affect the array. First, we will look at the function length(). To do so we will need a list of numbers. Since I am a big baseball guy, I used Chicago Cub’s first basemen, Anthony Rizzo’s, home runs over his last five seasons.</description>
     </item>
     
   </channel>
