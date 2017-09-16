@@ -6,10 +6,19 @@
     <description>Recent content in Posts on HDB</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hainesblog.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R Series Proabailities with normal data</title>
+      <link>https://hainesblog.netlify.com/post/r-series-proabailities-with-normal-data/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hainesblog.netlify.com/post/r-series-proabailities-with-normal-data/</guid>
+      <description>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, its like Kristaps Porzingas, you do everything that you can to get it but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.</description>
+    </item>
     
     <item>
       <title>R Basics seq(), rep(), and standard deviation with basic functions</title>

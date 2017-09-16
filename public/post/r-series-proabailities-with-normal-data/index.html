@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tags</title>
+        <title>R Series Proabailities with normal data</title>
         <style>
 
     html body {
@@ -59,9 +59,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.27.1" />
         
-        <link href="https://hainesblog.netlify.com/tags/index.xml" rel="alternate" type="application/rss+xml" title="HDB" />
-        <link href="https://hainesblog.netlify.com/tags/index.xml" rel="feed" type="application/rss+xml" title="HDB" />
-        
     </head>
 
     <body>
@@ -72,7 +69,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Tags</a>
+                    <a class="navbar-brand visible-xs" href="#">R Series Proabailities with normal data</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -113,9 +110,7 @@
 
 <main>
 
-    <h2>Tags</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -124,37 +119,41 @@
     
     
 
-    <h4><a href="/tags/baseball/">Baseball</a></h4>
-    <h5>September 13, 2017</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/dplyr/">Dplyr</a></h4>
-    <h5>September 13, 2017</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/functions/">Functions</a></h4>
+    <h4><a href="/post/r-series-proabailities-with-normal-data/">R Series Proabailities with normal data</a></h4>
     <h5>September 15, 2017</h5>
+     <kbd class="item-tag">Functions</kbd>  <kbd class="item-tag">Statistics</kbd> 
+
+</div>
+
+
+    <br> <div class="text-justify"><p>Let’s talk about normally distributed data. Normally distributed data is the unachievable unicorn, its like Kristaps Porzingas, you do everything that you can to get it but it rarely ever occurs in nature. Normally distributed data is a perfect bell curve and is statistically predictable.Its probability is predictable through a function in R called pnorm. Let’s supposed that a study found that foot lengths for Japanese women are normally distributed with a mean of 24.9 centimeters and standard deviation 1.05 centimeters. For this population, find the probability that a randomly chosen foot is less than 26 centimeters long. The R code to find this probability value is shown below:</p>
+<pre class="r"><code>pnorm(26, 24.9, 1.05)</code></pre>
+<pre><code>## [1] 0.8525929</code></pre>
+<p>This code spits out [1] 0.8525929 which can be read as a percentage for probability. So the answer to that problem is that a randomly chosen foot is has an 85% probability of being less than 26 centimeters. The regular pnorm equation calculates this probability from the area under the bell curve based on the value we gave, the data set’s mean, and the dat set’s standard deviation. To get the probabaility of a foot that is bigger than 26 centimeters long you would use this code.</p>
+<pre class="r"><code>1-pnorm(26, 24.9, 1.05)</code></pre>
+<pre><code>## [1] 0.1474071</code></pre>
+<p>which is about 15% or the rest of the data set. So not overly complicated but again all of this is dependent on the data being normal. This is also an incredibly simplistic explanation of normal data, and p values so I encourage any readers to do some more research on normal data, and z-scores. As always be sure to check out some other posts to get more familiar with R.</p>
+</div>
+
     
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/r-basics-seq-rep-and-standard-deviation-with-basic-functions/">R Basics seq(), rep(), and standard deviation with basic functions</a></h4>
+    <h5>September 14, 2017</h5>
+     <kbd class="item-tag">Functions</kbd>  <kbd class="item-tag">Statistics</kbd> 
 
 </div>
   <div class="item">
@@ -166,9 +165,9 @@
     
     
 
-    <h4><a href="/tags/lahman/">Lahman</a></h4>
+    <h4><a href="/post/r-basics-length-diff-mean/">R basics length(), diff(), mean()</a></h4>
     <h5>September 13, 2017</h5>
-    
+     <kbd class="item-tag">Functions</kbd> 
 
 </div>
   <div class="item">
@@ -180,16 +179,18 @@
     
     
 
-    <h4><a href="/tags/statistics/">Statistics</a></h4>
-    <h5>September 15, 2017</h5>
-    
+    <h4><a href="/post/r-basics-combine/">R Basics combine</a></h4>
+    <h5>September 13, 2017</h5>
+     <kbd class="item-tag">Functions</kbd> 
 
 </div>
  
 
+    
+
+    
+
 </main>
-
-
 
         <footer>
 
